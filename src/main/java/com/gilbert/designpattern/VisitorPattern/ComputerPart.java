@@ -1,0 +1,5 @@
+package com.gilbert.designpattern.VisitorPattern;
+
+public interface ComputerPart {
+    public void accept(ComputerPartVisitor computerPartVisitor);
+}
